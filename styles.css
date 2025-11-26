@@ -400,7 +400,6 @@ a:hover {
 }
 
 .site-logo {
-  height: 48px;
-  width: auto;
-  border-radius: 8px; /* remove if your logo is already clean */
+  max-height: 48px;   /* controls how tall the logo is */
+  width: auto;        /* keeps proportions */
 }
