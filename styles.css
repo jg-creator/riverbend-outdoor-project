@@ -403,3 +403,10 @@ a:hover {
     padding: 2.4rem 0;
   }
 }
+
+.site-logo {
+  max-width: 120px !important;   /* Hard limit */
+  max-height: 50px !important;   /* Hard limit */
+  height: auto !important;
+  width: auto !important;
+}
