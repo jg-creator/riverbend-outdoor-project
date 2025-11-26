@@ -7,6 +7,11 @@
   padding: 0;
 }
 
+.site-logo {
+  max-height: 48px;   /* controls how tall the logo is */
+  width: auto;        /* keeps proportions */
+}
+
 /* Root variables for easy theming */
 :root {
   --color-bg: #f7f6f2;
@@ -397,9 +402,4 @@ a:hover {
   .section {
     padding: 2.4rem 0;
   }
-}
-
-.site-logo {
-  max-height: 48px;   /* controls how tall the logo is */
-  width: auto;        /* keeps proportions */
 }
