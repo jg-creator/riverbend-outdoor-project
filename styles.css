@@ -8,7 +8,7 @@
 }
 
 .site-logo {
-  max-height: 4px;   /* controls how tall the logo is */
+  max-height: 48px;   /* controls how tall the logo is */
   width: auto;        /* keeps proportions */
 }
 
